@@ -1,3 +1,11 @@
 CREATE NEW
 npx create-expo-app@latest {name} -t
 
+npm start
+
+git status
+git add .
+git commit -m "init expo project"
+
+//revert back to previous state
+git stash
