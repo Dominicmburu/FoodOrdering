@@ -1,3 +1,9 @@
+ASSETS
+https://assets.notjust.dev/pizza
+
+STEP BY STEP GUIDE
+https://notjust.notion.site/React-Native-Supabase-Masterclass-47a69a60bc464c399b5a0df4d3c4a630
+
 CREATE NEW
 npx create-expo-app@latest {name} -t
 
