@@ -1,23 +1,5 @@
-import Colors from '@/constants/Colors';
-import { StyleSheet, Text, View, Image } from 'react-native';
-import products from '@/assets/data/products';
-import ProductListItem from '@/components/ProductListItem';
+import { Redirect } from "expo-router";
 
-
-export default function MenuScreen() {
-  return (
-    <View>
-      <ProductListItem product={products[0]}/>
-      <ProductListItem product={products[1]}/>
-    </View>
-  );
+export default function TabIndex() {
+    return <Redirect href={'/menu/'} />;
 }
-
-const styles = StyleSheet.create({
-  container:{
-    backgroundColor: 'white',
-    padding: 10,
-    borderRadius:20,
-  },
-  
-});
