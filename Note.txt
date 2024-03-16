@@ -4,6 +4,10 @@ https://assets.notjust.dev/pizza
 STEP BY STEP GUIDE
 https://notjust.notion.site/React-Native-Supabase-Masterclass-47a69a60bc464c399b5a0df4d3c4a630
 
+WHATSAPP
+https://www.youtube.com/watch?v=EvSUJ5lUcBw&list=PLY3ncAV1dSVB_2zBpMPwURV0bIx33vVml&ab_channel=notJust%E2%80%A4dev
+
+
 CREATE NEW
 npx create-expo-app@latest {name} -t
 
@@ -15,3 +19,5 @@ git commit -m "init expo project"
 
 //revert back to previous state
 git stash
+
+npx expo install expo-crypto
