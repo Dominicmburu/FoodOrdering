@@ -3,7 +3,7 @@ import { defaultPizzaImage } from "@/components/ProductListItem";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { useState } from "react";
 import { View, Text, Image, StyleSheet, Pressable } from "react-native";
-import Button from '@components/Button';
+import Button from "@/components/Button";
 import { useCart } from "@/provider/CatProvider";
 import { PizzaSize } from "@/types";
 
